@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 public class BanqueService implements BanqueServiceInterface {
 
     public void creerCompte(Personne personne) {
+
         System.out.println(personne);
     }
 }
